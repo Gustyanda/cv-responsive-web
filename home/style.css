@@ -32,7 +32,7 @@
     --z-modal: 100;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 350px) {
     :root {
         --big-font-size: 48px;
         --h1-font-size: 36px;
@@ -729,37 +729,7 @@ img {
 
 /*-----------------media-------------------*/
 
-/* mobile device */
-
-@media screen and (max-width: 350px) {
-    .container {
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-
-    .navbar__menu {
-        padding: 32px 4px 64px;
-    }
-
-    .navbar__list {
-        column-gap: 0;
-    }
-
-    .home__content {
-        grid-template-columns: .25fr 3fr;
-    }
-
-    .home__circle {
-        width: 180px;
-    }
-
-    .skills__title {
-        font-size: var(--normal-font-size);
-    }
-
-}
-
-/* tab device */
+/* small and medium device */
 
 @media screen and (min-width: 560px) {
 
@@ -804,8 +774,8 @@ img {
 
     .container {
         margin-bottom: -50px;
-        /* margin-right: auto;
-        margin-left: auto; */
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .section {
@@ -912,7 +882,7 @@ img {
     }
 
     .footer__container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);        
     }
 
     .footer__bg {
@@ -937,10 +907,15 @@ img {
 
 @media screen and (min-width: 1024px) {
 
+
     .header,
     .main,
     .footer__container {
-        padding: 0;
+        padding: auto;
+    }
+
+    .container{
+        margin-left: 130px;
     }
 
     .home__content.grid {
@@ -961,7 +936,7 @@ img {
     }
 
     .skills__list {
-        width: 768px;
+        width: 860px;
     }
 
     .portofolio__container,
