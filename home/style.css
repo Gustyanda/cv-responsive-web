@@ -151,25 +151,6 @@ img {
     cursor: pointer;
 }
 
-/* dark them */
-/* need to create root body color dark theme */
-
-/* .navbar__button{
-    display: flex;
-    align-items: center;
-}
-
-.change-theme{
-    font-size: 20px;
-    color: #1a1a1a;
-    margin-right: 16px;
-    cursor: pointer;
-}
-
-.change-theme:hover{
-    color: #ff471a;
-    transition: .5s;
-} */
 
 @media screen and (max-width:767px) {
     .navbar__menu {
